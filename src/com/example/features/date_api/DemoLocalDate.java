@@ -22,6 +22,8 @@ public class DemoLocalDate {
 
 		LocalDate localDateTwo = LocalDate.of(1992, Month.AUGUST, 16);
 
+		System.out.println("Minima fecha que se puede poner " + LocalDate.MIN);
+		System.out.println("Minima fecha que se puede poner " + LocalDate.MAX);
 		System.out.println("Pinta la fecha -> " + localDateTwo);
 
 		System.out.println("Obtenems el año del localDate " + localDateOne.getYear());
